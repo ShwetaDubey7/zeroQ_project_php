@@ -53,4 +53,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     header('Location: ../admin/login.php');
     exit;
 }
-?>
+

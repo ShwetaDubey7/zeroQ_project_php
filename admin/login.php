@@ -40,6 +40,7 @@ ob_start();
                 </div>
             <?php endif; ?>
             
+            <!-- THEEK KIYA GAYA PATH: '../actions/handle_admin_login.php' se '../actions/handle_login.php' -->
             <form action="../actions/handle_login.php" method="POST" class="space-y-6">
                 <div>
                     <label for="email" class="block text-sm font-medium text-light/60 mb-1">Email Address</label>
@@ -68,3 +69,4 @@ $content = ob_get_clean();
 $pageTitle = 'Business Login';
 require_once '../includes/template.php'; 
 ?>
+

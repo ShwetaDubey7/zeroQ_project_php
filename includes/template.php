@@ -85,7 +85,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
                 <!-- Logo -->
-                <a href="/index.php" class="flex items-center space-x-2">
+                <a href="index.php" class="flex items-center space-x-2">
                     <span class="text-2xl font-bold">
                         <span class="text-accent animate-gradient bg-gradient-to-r from-accent via-purple-500 to-accent bg-clip-text text-transparent">
                             ZeroQ
@@ -93,12 +93,12 @@
                     </span>
                 </a>
 
-                <!-- Desktop Navigation -->
+                <!-- Desktop Navigation (THEEK KIYE GAYE PATHS) -->
                 <nav class="hidden md:flex items-center space-x-8">
-                    <a href="/about.php" class="text-light/70 hover:text-accent transition-colors">About</a>
-                    <a href="/features.php" class="text-light/70 hover:text-accent transition-colors">Features</a>
-                    <a href="/pricing.php" class="text-light/70 hover:text-accent transition-colors">Pricing</a>
-                    <a href="/contact.php" class="text-light/70 hover:text-accent transition-colors">Contact</a>
+                    <a href="about.php" class="text-light/70 hover:text-accent transition-colors">About</a>
+                    <a href="features.php" class="text-light/70 hover:text-accent transition-colors">Features</a>
+                    <a href="pricing.php" class="text-light/70 hover:text-accent transition-colors">Pricing</a>
+                    <a href="contact.php" class="text-light/70 hover:text-accent transition-colors">Contact</a>
                 </nav>
 
                 <!-- Hamburger Menu Button -->
@@ -128,10 +128,10 @@
             class="md:hidden absolute inset-x-0 top-20 blur-backdrop bg-dark/95 border-b border-accent/10"
             @click.away="mobileMenu = false">
             <nav class="px-4 py-6 space-y-4">
-                <a href="/about.php" class="block py-2 text-light/70 hover:text-accent transition-colors">About</a>
-                <a href="/features.php" class="block py-2 text-light/70 hover:text-accent transition-colors">Features</a>
-                <a href="/pricing.php" class="block py-2 text-light/70 hover:text-accent transition-colors">Pricing</a>
-                <a href="/contact.php" class="block py-2 text-light/70 hover:text-accent transition-colors">Contact</a>
+                <a href="about.php" class="block py-2 text-light/70 hover:text-accent transition-colors">About</a>
+                <a href="features.php" class="block py-2 text-light/70 hover:text-accent transition-colors">Features</a>
+                <a href="pricing.php" class="block py-2 text-light/70 hover:text-accent transition-colors">Pricing</a>
+                <a href="contact.php" class="block py-2 text-light/70 hover:text-accent transition-colors">Contact</a>
             </nav>
         </div>
     </header>
@@ -159,9 +159,9 @@
                 <div>
                     <h3 class="text-sm font-semibold text-light/70 uppercase tracking-wider mb-4">Company</h3>
                     <div class="space-y-3">
-                        <a href="/about.php" class="block text-light/50 hover:text-accent transition-colors">About</a>
-                        <a href="/features.php" class="block text-light/50 hover:text-accent transition-colors">Features</a>
-                        <a href="/pricing.php" class="block text-light/50 hover:text-accent transition-colors">Pricing</a>
+                        <a href="about.php" class="block text-light/50 hover:text-accent transition-colors">About</a>
+                        <a href="features.php" class="block text-light/50 hover:text-accent transition-colors">Features</a>
+                        <a href="pricing.php" class="block text-light/50 hover:text-accent transition-colors">Pricing</a>
                     </div>
                 </div>
 
@@ -169,9 +169,9 @@
                 <div>
                     <h3 class="text-sm font-semibold text-light/70 uppercase tracking-wider mb-4">Support</h3>
                     <div class="space-y-3">
-                        <a href="/contact.php" class="block text-light/50 hover:text-accent transition-colors">Contact</a>
-                        <a href="/faq.php" class="block text-light/50 hover:text-accent transition-colors">FAQ</a>
-                        <a href="/help.php" class="block text-light/50 hover:text-accent transition-colors">Help Center</a>
+                        <a href="contact.php" class="block text-light/50 hover:text-accent transition-colors">Contact</a>
+                        <a href="faq.php" class="block text-light/50 hover:text-accent transition-colors">FAQ</a>
+                        <a href="help.php" class="block text-light/50 hover:text-accent transition-colors">Help Center</a>
                     </div>
                 </div>
 

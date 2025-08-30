@@ -53,6 +53,7 @@ ob_start();
                     <h2 class="text-3xl font-bold mt-2 text-light"><?= htmlspecialchars($business['business_name']); ?></h2>
                 </div>
                 
+                <!-- THEEK KIYA GAYA PATH: 'actions/handle_join.php' se 'handle_join.php' -->
                 <form action="handle_join.php" method="POST" class="space-y-6">
                     <input type="hidden" name="business_id" value="<?= $business['id']; ?>">
                     

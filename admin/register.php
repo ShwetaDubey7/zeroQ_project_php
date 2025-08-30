@@ -29,6 +29,7 @@ ob_start();
                 </div>
             <?php endif; ?>
             
+            <!-- THEEK KIYA GAYA PATH: '../actions/handle_admin_register.php' se '../actions/handle_register.php' -->
             <form action="../actions/handle_register.php" method="POST" class="space-y-6">
                  <div>
                     <label for="business_name" class="block text-sm font-medium text-light/60 mb-1">Business Name</label>
@@ -58,3 +59,4 @@ $content = ob_get_clean();
 $pageTitle = 'Business Registration';
 require_once '../includes/template.php'; 
 ?>
+
